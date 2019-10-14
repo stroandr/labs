@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <mkdir dir="C:\seminar\labs\tools\target/sql-workbench"/>
+  <get usetimestamp="true" src="http://www.sql-workbench.eu/Workbench-Build125.zip" dest="C:\seminar\labs\tools\target/sql-workbench/Workbench-Build125.zip" verbose="false"/>
+  <unzip src="C:\seminar\labs\tools\target/sql-workbench/Workbench-Build125.zip" dest="C:\seminar\labs\tools\target/sql-workbench/"/>
+  <delete file="C:\seminar\labs\tools\target/sql-workbench/Workbench-Build125.zip"/>
+</target>
+</project>
