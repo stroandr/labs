@@ -15,8 +15,7 @@ public class Artikel {
 	}
 	
 	public Artikel(int artikelnummer, String bezeichnung) {
-		this.artikelnummer = artikelnummer;
-		this.bezeichnung = bezeichnung;
+		this(artikelnummer,bezeichnung,0.0);
 	}
 	
 	public void setArtikelnummer(int artikelnummer) {
