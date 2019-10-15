@@ -30,4 +30,6 @@ Gedoplan Betreuung: Tim
 - Ein String wird immer in "" angegeben, einfache ' ist immer ein Char
 - for (int element : a)   Alle Elemente eines Arrays werden durchlaufen
 - Empfohlenes Buch? "Der Weg zum Java-Profi"
+- Empfohlenes Buch! "Effective Java" (Third Edition)
+- Konstanten werden in GROSSBUCHSTABEN geschrieben
 
