@@ -1,5 +1,8 @@
+Java Schulung Gedoplan 14. - 18.10.19
+=====================================
+
 Referent: Michael Kulla
-=======================
+-----------------------
 
 Gedoplan Betreuung: Tim
 -----------------------
@@ -18,3 +21,13 @@ Gedoplan Betreuung: Tim
 - Index beginnt immer mit 0 - z.B. im Array
 - Die Auswertungsreihenfolge ist immer von links nach rechts und vom Gleichheitszeichen bis zum Semikolon
 - Bei Switch immer auch einen break mitgeben, da ansonsten immer alle nachfolgenden case mit bearbeitet werden
+- Vorbelegung für int, short, byte, long ist 0
+- Vorbelegung für float, double ist 0.0
+- Vorbelegung für boolean ist false
+- Vorbelegung char ist 0
+- Vorbelegung für String ist null
+- Ein Array hat in Java immer eine feste Länge, die nachher nicht mehr verändert werden kann
+- Ein String wird immer in "" angegeben, einfache ' ist immer ein Char
+- for (int element : a)   Alle Elemente eines Arrays werden durchlaufen
+- Empfohlenes Buch? "Der Weg zum Java-Profi"
+
