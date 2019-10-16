@@ -6,6 +6,7 @@ public class Artikel {
 	private int artikelnummer;
 	private String bezeichnung;
 	private double preis;
+	private double steuersatz = 1.0;
 
 	public Artikel(int artikelnummer, String bezeichnung, double preis) {
 		this.artikelnummer = artikelnummer;
@@ -29,10 +30,22 @@ public class Artikel {
 	public void setPreis(int preis) {
 		this.preis = preis;
 	}
- 
-	public String toString() {
-		return "Artikel [artikelnummer=" + artikelnummer + ", bezeichnung=" + bezeichnung + ", preis=" + preis + "]";
+	
+	public double berechneBruttopreis() {
+		return this.preis * this.steuersatz;
 	}
+	
+	public void setSteuersatz(double steuersatz) {
+		this.steuersatz=steuersatz;
+	}
+
+
+	public String toString() {
+		return "Artikel [artikelnummer=" + artikelnummer + ", bezeichnung=" + bezeichnung + ", preis=" + preis
+				+ ", steuersatz=" + steuersatz + "]";
+	}
+ 
+	
 
 	
 	
