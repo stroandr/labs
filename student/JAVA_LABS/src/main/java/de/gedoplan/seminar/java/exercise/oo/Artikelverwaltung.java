@@ -11,6 +11,7 @@ public class Artikelverwaltung {
 		System.out.println(myHouse);
 		myHouse.setPreis(400000);
 		System.out.println(myHouse);
+		System.out.println("Das Objekt " + myHouse + " hat den Bruttopreis: " + myHouse.berechneBruttopreis());
 
 	}
 

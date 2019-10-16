@@ -29,6 +29,10 @@ public class Artikel {
 	public void setPreis(int preis) {
 		this.preis = preis;
 	}
+	
+	public double berechneBruttopreis() {
+		return this.preis * 1.19;
+	}
  
 	public String toString() {
 		return "Artikel [artikelnummer=" + artikelnummer + ", bezeichnung=" + bezeichnung + ", preis=" + preis + "]";
