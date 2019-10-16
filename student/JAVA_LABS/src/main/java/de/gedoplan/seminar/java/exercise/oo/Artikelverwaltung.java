@@ -12,7 +12,8 @@ public class Artikelverwaltung {
 		myHouse.setPreis(400000);
 		System.out.println(myHouse);
 		System.out.println("Das Objekt " + myHouse + " hat den Bruttopreis: " + myHouse.berechneBruttopreis());
-
+		myHouse.setSteuersatz(1.07);
+		System.out.println("Das Objekt " + myHouse + " hat den Bruttopreis: " + myHouse.berechneBruttopreis());
 	}
 
 }
