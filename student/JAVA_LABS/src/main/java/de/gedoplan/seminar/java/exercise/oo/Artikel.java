@@ -2,7 +2,7 @@ package de.gedoplan.seminar.java.exercise.oo;
 
 //import de.gedoplan.seminar.java.exercise.basic.string;
 
-public class Artikel {
+public class Artikel implements Comparable<Artikel> {
 	private int artikelnummer;
 	private String bezeichnung;
 	private double preis;
@@ -37,6 +37,20 @@ public class Artikel {
 	
 	public void setSteuersatz(double steuersatz) {
 		this.steuersatz=steuersatz;
+	}
+	
+	public int compareTo(Artikel vergleichArtikel) {
+		if (vergleichArtikel.preis < this.preis) {
+			return -1;
+		}
+		if (vergleichArtikel.preis > this.preis) {
+			return 1;
+		}
+		
+			return 0;
+		
+		
+		
 	}
 
 

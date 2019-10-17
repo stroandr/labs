@@ -7,6 +7,7 @@ Referent: Michael Kulla
 Gedoplan Betreuung: Tim
 -----------------------
 
+- Eclipse Bundle: Red Hat CodeReady Studio 12.12.0.GA
 - Oracle JDK und Open JDK sind identisch bis auf kleine Erweiterungen von Oracle
 - Java LTS Versionen kommen alle drei Jahre, aktuell ist Java 11, 17 ist die nächste.
 - Groß-Kleinschreibung wird generell unterschieden
@@ -37,6 +38,7 @@ Gedoplan Betreuung: Tim
 - Empfohlenes Buch! "Algorithmen kompakt und verständlich"
 - Autoboxing --> Verpacken primitiver Datentypen in ein Objekt
 - Autounboxing --> Überführung eines Objekts in einen primitiven Datentypen
-
+- Visualisierung einer REST Schnittstelle in WADL https://javaee.github.io/wadl/
+- Buchempfehlung um Routine zu bekommen: "Programmieren lernen mit Java"
 
 
