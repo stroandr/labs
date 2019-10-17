@@ -32,4 +32,11 @@ Gedoplan Betreuung: Tim
 - Empfohlenes Buch? "Der Weg zum Java-Profi"
 - Empfohlenes Buch! "Effective Java" (Third Edition)
 - Konstanten werden in GROSSBUCHSTABEN geschrieben
+- static --> für alle Instanzen eines Objekts ist es das gleiche Attribut
+- F2 startet in Eclipse die JavaDoc zum markierten Text
+- Empfohlenes Buch! "Algorithmen kompakt und verständlich"
+- Autoboxing --> Verpacken primitiver Datentypen in ein Objekt
+- Autounboxing --> Überführung eines Objekts in einen primitiven Datentypen
+
+
 
