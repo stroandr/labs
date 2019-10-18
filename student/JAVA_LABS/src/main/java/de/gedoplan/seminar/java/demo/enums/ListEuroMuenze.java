@@ -7,6 +7,10 @@ public class ListEuroMuenze {
 			System.out.println(muenze);
 		}
 
+		for (EuroMuenze2 muenze : EuroMuenze2.values()) {
+			System.out.println("Die Muenze " + muenze + " hat den Wert: " + muenze.getWert());
+		}
+
 	}
 
 }
