@@ -13,13 +13,12 @@ package de.gedoplan.seminar.java.demo.basic;
  */
 public class Hello {
 
-  /**
-   * Haupt-Methode
-   * 
-   * @param args
-   *          Kommandozeilen-Argumente
-   */
-  public static void main(String[] args) {
-    System.out.print("Hello!");
-  }
+    /**
+     * Haupt-Methode
+     *
+     * @param args Kommandozeilen-Argumente
+     */
+    public static void main(String[] args) {
+        System.out.print("Hello!");
+    }
 }
