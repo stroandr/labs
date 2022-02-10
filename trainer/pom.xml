@@ -38,7 +38,7 @@
     <!-- Versionen einiger Dependencies im dependencyManagement (da dort mehrfach genutzt) -->
     <eclipselink.version>2.7.4</eclipselink.version>
     <derby.version>10.7.1.1</derby.version>
-    <hibernate.version>5.4.2.Final</hibernate.version>
+    <hibernate.version>5.4.24.Final</hibernate.version>
     <slf4j.version>1.7.25</slf4j.version>
 
     <!-- Weitere Versionen von Dependencies (meist in Form von BOMs), die zwar nicht hier, aber in Kindprojekten deklariert werden -->
